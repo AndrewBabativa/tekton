@@ -31,15 +31,12 @@ namespace Api.Controllers
                     return BadRequest("Invalid product object");
                 }
 
-                // Enviar el comando CreateProductCommand al MediatR
                 await _mediator.Send(command);
 
-                // Devolver un código de estado 201 (Created)
                 return StatusCode(201);
             }
             catch (Exception ex)
             {
-                // Loguear la excepción o manejarla de acuerdo a tus necesidades
                 return StatusCode(500, "Internal Server Error");
             }
         }
@@ -56,7 +53,6 @@ namespace Api.Controllers
                 return BadRequest("Invalid product object");
             }
 
-            // Verificar si el producto existe antes de actualizarlo
             var existingProduct = await _mediator.Send(new GetProductQuery { ProductId = command.ProductId });
 
             if (existingProduct == null)
@@ -64,10 +60,8 @@ namespace Api.Controllers
                 return NotFound("Product not found");
             }
 
-            // Enviar el comando UpdateProductCommand al MediatR
             await _mediator.Send(command);
 
-            // Devolver un código de estado 204 (No Content)
             return NoContent();
         }
 
@@ -77,7 +71,6 @@ namespace Api.Controllers
         [SwaggerResponse(404, "Product not found")]
         public async Task<IActionResult> DeleteProduct(int productId)
         {
-            // Verificar si el producto existe antes de eliminarlo
             var existingProduct = await _mediator.Send(new GetProductQuery { ProductId = productId });
 
             if (existingProduct == null)
@@ -85,10 +78,8 @@ namespace Api.Controllers
                 return NotFound("Product not found");
             }
 
-            // Enviar el comando DeleteProductCommand al MediatR
             await _mediator.Send(new DeleteProductCommand { ProductId = productId });
 
-            // Devolver un código de estado 204 (No Content)
             return NoContent();
         }
     }
