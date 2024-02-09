@@ -5,9 +5,12 @@ using MediatR;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Infrastructure.ExternalServices;
+using Microsoft.Extensions.Hosting;
+using Serilog;
+using Microsoft.AspNetCore.Hosting;
+
 
 var builder = WebApplication.CreateBuilder(args);
-
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -37,7 +40,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Technical test .NET Andres Babativa Goyeneche");
 });
 
 app.UseHttpsRedirection();
@@ -45,5 +48,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseMiddleware<TimingMiddleware>();
 
 app.Run();

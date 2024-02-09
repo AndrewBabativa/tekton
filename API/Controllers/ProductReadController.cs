@@ -5,7 +5,7 @@ using Swashbuckle.AspNetCore.Annotations;
 using Infrastructure.Models;
 using Infrastructure.DTOs;
 
-namespace Products.Api.Controllers
+namespace Api.Controllers
 {
     [Route("api/products/read")]
     [ApiController]

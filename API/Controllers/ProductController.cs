@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Core.Commands;
 using Core.Queries;
 
-namespace Products.Api.Controllers
+namespace Api.Controllers
 {
     [Route("api/products")]
     [ApiController]
