@@ -1,0 +1,15 @@
+D:\Escritorio\Tekton\API\Core\bin\Debug\net6.0\Core.deps.json
+D:\Escritorio\Tekton\API\Core\bin\Debug\net6.0\Core.dll
+D:\Escritorio\Tekton\API\Core\bin\Debug\net6.0\Core.pdb
+D:\Escritorio\Tekton\API\Core\bin\Debug\net6.0\Infrastructure.dll
+D:\Escritorio\Tekton\API\Core\bin\Debug\net6.0\Infrastructure.pdb
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\Core.csproj.CopyComplete
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\Core.dll
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\refint\Core.dll
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\Core.pdb
+D:\Escritorio\Tekton\API\Core\obj\Debug\net6.0\ref\Core.dll

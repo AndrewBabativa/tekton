@@ -1,0 +1,12 @@
+D:\Escritorio\Tekton\API\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+D:\Escritorio\Tekton\API\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+D:\Escritorio\Tekton\API\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+D:\Escritorio\Tekton\API\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll

@@ -1,0 +1,13 @@
+# Carpeta bin y obj generadas durante la compilación
+bin/
+obj/
+
+# Archivos temporales
+*~
+*.log
+*.vscode/
+
+
+# Carpetas bin y obj específicas del IDE
+.vs/
+.idea/
